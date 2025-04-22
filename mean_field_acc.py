@@ -128,16 +128,13 @@ class MFACC(BaseEstimator, ClassifierMixin, TransformerMixin):
     
     References
     ----------
-        .. [1] `Multiclass Brain-Computer Interface Classification by Riemannian
-            Geometry
-            <https://hal.archives-ouvertes.fr/hal-00681328>`_
-            A. Barachant, S. Bonnet, M. Congedo, and C. Jutten. IEEE Transactions
-            on Biomedical Engineering, vol. 59, no. 4, p. 920-928, 2012.
-        .. [2] `Riemannian geometry applied to BCI classification
-            <https://hal.archives-ouvertes.fr/hal-00602700/>`_
-            A. Barachant, S. Bonnet, M. Congedo and C. Jutten. 9th International
-            Conference Latent Variable Analysis and Signal Separation
-            (LVA/ICA 2010), LNCS vol. 6365, 2010, p. 629-636.
+    .. [1] `The Riemannian Means Field Classifier for EEG-Based BCI Data'
+       <https://www.mdpi.com/1424-8220/25/7/2305>`
+       A Anndreev, G Cattan, M Congedo. MDPI Sensors journal, April 2025
+    .. [2] `The Riemannian Minimum Distance to Means Field Classifier
+       <https://hal.archives-ouvertes.fr/hal-02315131>`_
+       M Congedo, PLC Rodrigues, C Jutten. BCI 2019 - 8th International
+       Brain-Computer Interface Conference, Sep 2019, Graz, Austria.
 
     """
 
