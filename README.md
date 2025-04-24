@@ -1,7 +1,7 @@
 This Git repository contains the code for the article "The Riemannian Means Field Classifier for EEG-Based BCI Data" by Anton Andreev, Gregoire Cattan and Marco Congedo, Sensors journal MDPI. The code has been refactored, streamlined and documented in order to be used by other researchers or Machine Learning practitioners in the domain. While it targets mainly EEG data, it has been also tested on non EEG data as well.
 
 * MDPI Sensors: https://www.mdpi.com/1424-8220/25/7/2305
-* HAL: pending
+* HAL: https://hal.science/hal-05043032
 
 If you use our algorithm, please cite this publication: https://www.mdpi.com/1424-8220/25/7/2305
 

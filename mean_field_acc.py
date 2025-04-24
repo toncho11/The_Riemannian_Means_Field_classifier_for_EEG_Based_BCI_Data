@@ -4,7 +4,7 @@ Contains the python class for the article:
 
 Available at:
     Sensors: https://www.mdpi.com/1424-8220/25/7/2305
-    HAL:     (in preparation)
+    HAL:     https://hal.science/hal-05043032
 
 The algorithm is abbreviated "MF" in the article.
 The Python class is called "MFACC".
