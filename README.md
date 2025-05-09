@@ -10,7 +10,7 @@ Abstract: A substantial amount of research has demonstrated the robustness and a
 Installation: 
 * `pip install moabb` (version 1.2 or above)
 * `pip install pyriemann` (use current pyRiemann from Git 0.9.dev0, 0.9 when released, or a version after 0.9)
-* Place `mean_field_acc` and `mean_field_acc_utils` in the same folder as your script. 
+* Place `mean_field_acc` and `mean_field_acc_utils` in the same folder as your script
 
 Install pyRiemann after MOABB. MOABB can override the version of pyRiemann you want to use.
 
