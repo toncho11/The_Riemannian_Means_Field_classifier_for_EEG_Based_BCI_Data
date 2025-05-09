@@ -5,7 +5,7 @@ Contains helper code for the article:
 
 Available at:
     Sensors: https://www.mdpi.com/1424-8220/25/7/2305
-    HAL: 
+    HAL:     https://hal.science/hal-05043032
 
 It contains a Scikit Learn transformer called ADCSP (Adaptive Double CSP).
 """
