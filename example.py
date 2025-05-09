@@ -6,7 +6,7 @@ This is an example on how to use the code for the article:
 
 Available at:
     Sensors: https://www.mdpi.com/1424-8220/25/7/2305
-    HAL:     (in preparation)
+    HAL:     https://hal.science/hal-05043032
 
 """
 
