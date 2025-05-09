@@ -14,7 +14,7 @@ Installation:
 
 Install pyRiemann after MOABB. MOABB can override the version of pyRiemann you want to use.
 
-The example.py script contains the pipeline we recommend.
+The [example.py](https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/blob/main/example.py) script contains the pipeline we recommend.
 
 ```
 from mean_field_acc import MFACC
