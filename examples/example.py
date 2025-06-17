@@ -12,8 +12,10 @@ Available at:
 
 from pyriemann.estimation import XdawnCovariances, Covariances
 from sklearn.pipeline import make_pipeline
-from mean_field_acc import MFACC
-from mean_field_acc_utils import ADCSP
+#from mean_field_acc import MFACC
+#from mean_field_acc_utils import ADCSP
+from mfacc import MFACC
+from mfacc import ADCSP
 from pyriemann.classification import TangentSpace
 from sklearn.linear_model import LogisticRegression
 
