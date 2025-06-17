@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mfacc"
+version = "1.0.0"
+description = "Implementation of the Riemannian Means Field classifier. It is an improved version that uses a list of power means and a classifier based on the distances. It also provides several other techniques for improving performance and speed."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name="Anton Andreev", email="your.email@example.com" }
+]
+dependencies = [
+    "pyriemann",
+    "moabb"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/"
+"Source" = "https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/"
