@@ -7,7 +7,7 @@ If you use our algorithm, please cite this publication: https://www.mdpi.com/142
 
 Abstract: A substantial amount of research has demonstrated the robustness and accuracy of the Riemannian minimum distance to mean (MDM) classifier for all kinds of EEG-based brain–computer interfaces (BCIs). This classifier is simple, fully deterministic, robust to noise, computationally efficient, and prone to transfer learning. Its training is very simple, requiring just the computation of a geometric mean of a symmetric positive-definite (SPD) matrix per class. We propose an improvement of the MDM involving a number of power means of SPD matrices instead of the sole geometric mean. By the analysis of 20 public databases, 10 for the motor-imagery BCI paradigm and 10 for the P300 BCI paradigm, comprising 587 individuals in total, we show that the proposed classifier clearly outperforms the MDM, approaching the state-of-the art in terms of performance while retaining the simplicity and the deterministic behavior. In order to promote reproducible research, our code will be released as open source.
 
-Installation: 
+## Installation:  
 
 1) As package 
 * Install directly from this git repository using: `pip install git+https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data` 
@@ -19,6 +19,7 @@ Installation:
 * `pip install pyriemann` (use current pyRiemann from Git 0.9.dev0, 0.9 when released, or a version after 0.9)
 Install pyRiemann after MOABB. MOABB can override pyRiemann with an older version!
 
+## How to use?
 The [example.py](https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/blob/main/examples/example.py) script contains the pipeline we recommend.
 
 ```
@@ -37,6 +38,9 @@ pipelines["ADCSP+MF"] = make_pipeline(
 )
 ```
 Please check the documentation for each parameter of MFACC for more information. ADCSP is an Adaptive Double CSP procedure we apply. The Robust Power Mean Estimation (RPME) is an outliers removal procedure that can be applied while calculating the power means. Check the `rpme` parameters on how to configure. It can help better estimate the power means at the cost of speed. It also depends on your data. There is also an example using the euclidean mean that shows how to add non-power means.  
+
+## Set-up development environment
+Clone and execute `pip install -e .` in the root folder. This is a development install command that tells pip to install your package in editable mode.
 
 Authors:
 * [Anton Andreev](https://scholar.google.com/citations?user=NFtzWMAAAAAJ&hl=en)
