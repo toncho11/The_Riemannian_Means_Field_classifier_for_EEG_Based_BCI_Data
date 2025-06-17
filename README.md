@@ -20,7 +20,7 @@ Abstract: A substantial amount of research has demonstrated the robustness and a
 Install pyRiemann after MOABB. MOABB can override pyRiemann with an older version!
 
 ## How to use?
-The [example.py](https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/blob/main/examples/example.py) script contains the pipeline we recommend.
+The [example.py](https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/blob/main/examples/example.py) script contains the pipeline we recommend for motor imagery.
 
 ```
 from mfacc import MFACC #adjust for MFACC location if you installed manually
