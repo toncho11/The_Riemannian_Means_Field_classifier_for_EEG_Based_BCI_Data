@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mfacc"
 version = "1.0.0"
-description = "Implementation of the Riemannian Means Field classifier. It is an improved version that uses a list of power means and a classifier based on the distances. It also provides several other techniques for improving performance and speed."
+description = "Implementation of the Riemannian Means Field classifier as described in the April 2025 article. It is an improved version that uses a list of power means and a classifier based on the distances. It also provides several other techniques for improving performance and speed."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
