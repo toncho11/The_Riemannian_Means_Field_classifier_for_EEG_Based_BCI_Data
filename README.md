@@ -9,7 +9,7 @@ Abstract: A substantial amount of research has demonstrated the robustness and a
 
 Installation: 
 
-1) As package directly from this git repository use: pip install git+https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data
+1) As package directly from this git repository use: `pip install git+https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data`. Currently to use the latest version 0.9 of pyRiemann, it is better to install pyRiemann from git: `pip install git+https://github.com/pyRiemann/pyRiemann`
 
 2) Manually
 * `pip install moabb` (version 1.2 or above)
