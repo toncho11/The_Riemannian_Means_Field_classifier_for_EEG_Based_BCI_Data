@@ -13,8 +13,8 @@ authors = [
     { name="Anton Andreev", email="your.email@example.com" }
 ]
 dependencies = [
-    "moabb",
-    "pyriemann @ git+https://github.com/alexandrebarachant/pyRiemann.git"
+    "moabb>=1.2.0",
+    "pyriemann>=0.7"
 ]
 
 [project.urls]

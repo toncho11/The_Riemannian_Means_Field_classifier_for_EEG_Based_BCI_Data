@@ -9,17 +9,20 @@ Abstract: A substantial amount of research has demonstrated the robustness and a
 
 Installation: 
 
-1) As package directly from this git repository use: `pip install git+https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data`. Currently to use the latest version 0.9 of pyRiemann, it is better to install pyRiemann from git: `pip install git+https://github.com/pyRiemann/pyRiemann`
+1) As package 
+* Install directly from this git repository using: `pip install git+https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data` 
+* You also need to install pyRiemann from git as a second step: `pip install git+https://github.com/pyRiemann/pyRiemann` in order to use the latest version 0.9 that we recommend
 
 2) Manually
+* download the code from this repository
 * `pip install moabb` (version 1.2 or above)
 * `pip install pyriemann` (use current pyRiemann from Git 0.9.dev0, 0.9 when released, or a version after 0.9)
-Install pyRiemann after MOABB. MOABB can override the version of pyRiemann you want to use.
+Install pyRiemann after MOABB. MOABB can override pyRiemann with an older version!
 
 The [example.py](https://github.com/toncho11/The_Riemannian_Means_Field_classifier_for_EEG_Based_BCI_Data/blob/main/examples/example.py) script contains the pipeline we recommend.
 
 ```
-from mfacc import MFACC
+from mfacc import MFACC #adjust for MFACC location if you installed manually
 from mfacc import ADCSP
 
 pipelines["ADCSP+MF"] = make_pipeline(
