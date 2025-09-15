@@ -2,6 +2,7 @@ This Git repository contains the code for the article "The Riemannian Means Fiel
 
 * MDPI Sensors: https://www.mdpi.com/1424-8220/25/7/2305
 * HAL: https://hal.science/hal-05043032
+* Arxiv: https://arxiv.org/abs/2504.17352
 
 If you use our algorithm, please cite this publication: https://www.mdpi.com/1424-8220/25/7/2305
 
